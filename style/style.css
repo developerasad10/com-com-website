@@ -12,6 +12,7 @@ img{
     height: 400px;
     margin-bottom: 5px;
 }
+/* ---------2nd layout------ */
 .second-row , .third-row{
     display: flex;
     gap:5px;
@@ -19,6 +20,7 @@ img{
 .second-row > div{
     flex: 1;
 }
+/* ---new to me---- */
 .second-row-third-container{
     display: flex;
     gap: 5px;
