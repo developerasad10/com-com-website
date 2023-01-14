@@ -9,7 +9,7 @@ img{
     width: 100%;
 }
 .row{
-    height: 400px;
+    /* height: 400px; */
     margin-bottom: 5px;
 }
 /* ---------2nd layout------ */
@@ -36,4 +36,19 @@ img{
 }
 .third-row > div{
     flex: 1;
+}
+/* -------Media Query------- */
+@media screen and (max-width:576px) {
+    .second-row , .third-row{
+        display: flex;
+        flex-direction: column;
+    }
+    .third-row-second-container{
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+@media screen and (min-width:577px) {
+    .row{
+        height: 400px;
+    }
 }
